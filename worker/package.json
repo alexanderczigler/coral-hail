@@ -1,0 +1,29 @@
+{
+  "name": "coral-hail-url-queue-listener",
+  "version": "0.0.1",
+  "description": "## Development requirements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilix/coral-hail.git"
+  },
+  "author": "alexander@czigler.eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilix/coral-hail/issues"
+  },
+  "homepage": "https://github.com/ilix/coral-hail#readme",
+  "dependencies": {
+    "rsmq": "^0.9.2",
+    "rsmq-promise": "^1.0.1",
+    "rsmq-worker": "^0.5.2",
+    "url-to-screenshot": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
