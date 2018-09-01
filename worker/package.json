@@ -1,5 +1,5 @@
 {
-  "name": "coral-hail-url-queue-listener",
+  "name": "coral-hail-worker",
   "version": "0.0.1",
   "description": "## Development requirements",
   "main": "index.js",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ilix/coral-hail#readme",
   "dependencies": {
+    "moment": "^2.22.2",
     "rsmq": "^0.9.2",
     "rsmq-promise": "^1.0.1",
     "rsmq-worker": "^0.5.2",
